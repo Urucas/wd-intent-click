@@ -16,7 +16,7 @@ var intentClick = require('../node/');
   function success() {
     console.log("SUCCESS");
     browser.quit();
-    process.quit(0);
+    process.exit(0);
   }
 
   browser.on('command', function(meth, path, data) {
