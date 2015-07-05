@@ -1,0 +1,34 @@
+{
+  "name": "wd-intent-click",
+  "version": "0.0.1",
+  "description": "wd intent click on appium",
+  "main": "node/index.js",
+  "scripts": {
+    "build": "make clean && make node",
+    "start": "make clean && make node && node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Urucas/wd-intent-click.git"
+  },
+  "keywords": [
+    "appium",
+    "intent",
+    "browsable",
+    "intent",
+    "url",
+    "click",
+    "test"
+  ],
+  "author": "Urucas <hello@urucas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Urucas/wd-intent-click/issues"
+  },
+  "homepage": "https://github.com/Urucas/wd-intent-click",
+  "dependencies": {
+    "appium-running": "^0.1.3",
+    "babel": "^5.6.14",
+    "wd": "^0.3.12"
+  }
+}
