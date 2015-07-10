@@ -32,7 +32,7 @@ var ar = require('appium-running');
       browser.get("http://labs.urucas.com/zoster", function(){
         browser.elementByLinkText("Open App", function(err, el) {
           if(err) return error(err);
-          Utils.intentClick(browser, el, function(err) {
+          Utils.clickIntent(browser, el, function(err) {
             if(err) return error(err);
             success();
           });
