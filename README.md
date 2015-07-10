@@ -2,5 +2,4 @@
 
 Some util methods to complement [wd](https://github.com/admc/wd) module
 
-* clickIntent
-* scrollToElement
+* clickIntent, because clicking on an intent url(non http link) on a web view is not that simple. [Related](https://discuss.appium.io/t/clicking-on-an-intent-url-not-http-link-inside-a-webview-solved/5022)
